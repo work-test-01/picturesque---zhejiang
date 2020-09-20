@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/culture/culture",
+    "pages/travel/travel",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#1296DB",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "热点速览",
+      "iconPath": "./icon/index.png",
+      "selectedIconPath": "./icon/index_selected.png"
+    }, {
+      "pagePath": "pages/culture/culture",
+      "text": "诗画浙江",
+      "iconPath": "./icon/culture.png",
+      "selectedIconPath": "./icon/culture_selected.png"
+    }, {
+      "pagePath": "pages/travel/travel",
+      "text": "旅游攻略",
+      "iconPath": "./icon/travel.png",
+      "selectedIconPath": "./icon/travel_selected.png"
+    }, {
+      "pagePath": "pages/mine/mine",
+      "text": "个人中心",
+      "iconPath": "./icon/mine.png",
+      "selectedIconPath": "./icon/mine_selected.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
